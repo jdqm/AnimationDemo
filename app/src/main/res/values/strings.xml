@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="view_animation">View动画</string>
+    <string name="view_animator">属性动画</string>
+    <string name="tween_animation">帧动画</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jdqm.animationdemo.MainActivity">
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_animation" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnTweenAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tween_animation"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnimation" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_animator"
+        app:layout_constraintTop_toBottomOf="@+id/btnTweenAnimation" />
+
+
+</android.support.constraint.ConstraintLayout>
