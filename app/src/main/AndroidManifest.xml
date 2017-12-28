@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".animation.ViewAnimationActivity" />
         <activity android:name=".animator.PropertyAnimationActivity" />
-        <activity android:name=".animation.TweenAnimationActivity"></activity>
+        <activity android:name=".animation.TweenAnimationActivity" />
+        <activity android:name=".transition.TransitionActivity"></activity>
     </application>
 
 </manifest>

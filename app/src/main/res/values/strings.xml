@@ -10,4 +10,5 @@
     <string name="alpha">透明</string>
     <string name="value_holder">PropertyValueHolder</string>
     <string name="animator_set">animatorSet</string>
+    <string name="transition">转场动画</string>
 </resources>

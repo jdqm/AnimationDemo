@@ -29,5 +29,13 @@
         android:text="@string/view_animator"
         app:layout_constraintTop_toBottomOf="@+id/btnTweenAnimation" />
 
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transition"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnimator" />
+
 
 </android.support.constraint.ConstraintLayout>
