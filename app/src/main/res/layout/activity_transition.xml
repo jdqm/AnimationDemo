@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context="com.jdqm.animationdemo.transition.TransitionActivity">
 
+    <Button
+        android:id="@+id/btnExplode"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="explode"
+        android:text="explode" />
+
+    <Button
+        android:id="@+id/btnSlide"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="slide"
+        android:text="slide"
+        app:layout_constraintTop_toBottomOf="@id/btnExplode" />
+
+    <Button
+        android:id="@+id/btnFade"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="fade"
+        android:text="fade"
+        app:layout_constraintTop_toBottomOf="@id/btnSlide" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="share"
+        android:text="share"
+        android:transitionName="share"
+        app:layout_constraintTop_toBottomOf="@id/btnFade" />
+
+    <Button
+        android:id="@+id/btnFab"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ripple_round"
+        android:elevation="5dp"
+        android:transitionName="fab"
+        app:layout_constraintTop_toBottomOf="@id/btnShare" />
+
 </android.support.constraint.ConstraintLayout>

@@ -1,17 +1,16 @@
 package com.jdqm.animationdemo;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.jdqm.animationdemo.animation.TranslationAnimationView;
 import com.jdqm.animationdemo.animation.TweenAnimationActivity;
 import com.jdqm.animationdemo.animation.ViewAnimationActivity;
 import com.jdqm.animationdemo.animator.PropertyAnimationActivity;
 import com.jdqm.animationdemo.transition.TransitionActivity;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
