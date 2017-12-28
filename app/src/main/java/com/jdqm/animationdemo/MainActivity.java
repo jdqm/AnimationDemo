@@ -1,8 +1,7 @@
 package com.jdqm.animationdemo;
 
-import android.animation.PropertyValuesHolder;
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -10,7 +9,7 @@ import com.jdqm.animationdemo.animation.TweenAnimationActivity;
 import com.jdqm.animationdemo.animation.ViewAnimationActivity;
 import com.jdqm.animationdemo.animator.PropertyAnimationActivity;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
