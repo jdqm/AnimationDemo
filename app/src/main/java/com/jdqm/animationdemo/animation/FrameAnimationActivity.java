@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.jdqm.animationdemo.R;
 
-public class TweenAnimationActivity extends AppCompatActivity {
+public class FrameAnimationActivity extends AppCompatActivity {
 
     private View imageView;
 

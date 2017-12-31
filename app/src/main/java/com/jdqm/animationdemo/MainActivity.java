@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.jdqm.animationdemo.animation.TweenAnimationActivity;
+import com.jdqm.animationdemo.animation.FrameAnimationActivity;
 import com.jdqm.animationdemo.animation.ViewAnimationActivity;
 import com.jdqm.animationdemo.animator.PropertyAnimationActivity;
 import com.jdqm.animationdemo.transition.TransitionActivity;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, ViewAnimationActivity.class));
                 break;
             case R.id.btnTweenAnimation:
-                startActivity(new Intent(this, TweenAnimationActivity.class));
+                startActivity(new Intent(this, FrameAnimationActivity.class));
                 break;
             case R.id.btnAnimator:
                 startActivity(new Intent(this, PropertyAnimationActivity.class));
