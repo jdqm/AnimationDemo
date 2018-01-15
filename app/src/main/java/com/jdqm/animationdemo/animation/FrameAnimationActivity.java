@@ -9,23 +9,23 @@ import com.jdqm.animationdemo.R;
 
 public class FrameAnimationActivity extends AppCompatActivity {
 
-    private View imageView;
+    private View frameAnimationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_twenn_animation);
-        imageView = findViewById(R.id.imageView);
-        imageView.setBackgroundResource(R.drawable.music_animation);
+        frameAnimationView = findViewById(R.id.frameAnimationView);
+        frameAnimationView.setBackgroundResource(R.drawable.music_animation);
     }
 
     public void start(View view) {
-        AnimationDrawable tweenAnimation = (AnimationDrawable) imageView.getBackground();
-        tweenAnimation.start();
+        AnimationDrawable frameAnimation = (AnimationDrawable) frameAnimationView.getBackground();
+        frameAnimation.start();
     }
 
     public void stop(View view) {
-        AnimationDrawable tweenAnimation = (AnimationDrawable) imageView.getBackground();
-        tweenAnimation.stop();
+        AnimationDrawable frameAnimation = (AnimationDrawable) frameAnimationView.getBackground();
+        frameAnimation.stop();
     }
 }

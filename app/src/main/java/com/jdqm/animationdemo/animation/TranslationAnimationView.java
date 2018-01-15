@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -44,9 +45,16 @@ public class TranslationAnimationView extends RelativeLayout {
             @Override
             public void onClick(View v) {
                 Animation ta = new TranslateAnimation(0, dpToPixel(100), 0, 0);
+//                ta = new TranslateAnimation(
+//                        Animation.RELATIVE_TO_PARENT, 0.0f,
+//                        Animation.RELATIVE_TO_PARENT, 0.5f,
+//                        Animation.ABSOLUTE, 0,
+//                        Animation.ABSOLUTE, 0);
                 ta.setDuration(300);
                 ta.setFillAfter(true);
                 imageView.startAnimation(ta);
+//                Animation animation = AnimationUtils.loadAnimation(context, R.anim.animations);
+//                imageView.startAnimation(animation);
             }
         });
     }
